@@ -21,6 +21,23 @@ README
 
 .gitkeep 是一个约定俗成的文件名并不会带有特殊规则。
 
+
+
+
+**本地对应仓库的创建**
+
+.. code:: bash
+
+  #初始化 该目录下将生成. git 文件夹
+  git init
+  #设置远程仓库地址 第一个为 HTTPS 第二个为 SSH，两个选一个即可。
+  #设置完之后该信息将被写入到 .git/config 文件中，可修改该文件切换上传方式
+  git remote add origin https://github.com/wuhongyi/xxxx.git
+  git remote add origin git@github.com:wuhongyi/xxxx.git
+
+
+
+
    
 .. 
 .. README.rst ends here
